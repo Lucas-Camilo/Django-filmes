@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2e9acc2b-be97-4854-a25f-135b69b367a1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Django-filmes.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cadastro/templates/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cadastro/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cadastro/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Cadastro/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cadastro/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Cadastro/urls.py" afterDir="false" />
-    </list>
+    <list default="true" id="2e9acc2b-be97-4854-a25f-135b69b367a1" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,6 +85,11 @@
               <item name="Django-filmes" type="462c0819:PsiDirectoryNode" />
               <item name="Cadastro" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Django-filmes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Django-filmes" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -135,7 +129,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1040" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
