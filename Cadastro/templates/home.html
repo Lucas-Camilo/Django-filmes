@@ -9,7 +9,7 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.28/angular-cookies.min.js"></script>
     <script src="{% static 'js/app.js' %}"></script>
 </head>
-<body class="fundo">
+<body ng-controller="Ctrl" class="fundo">
     <p><h1>Ola seja bem vindo ao cadastro de filmes</h1></p>
     <form name="myForm" id="centro">
             <input type="radio" ng-model="func" value="cadastro"> Cadastrar Filmes<br/>
