@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2e9acc2b-be97-4854-a25f-135b69b367a1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Cadastro/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/Cadastro/templates/home.html" afterDir="false" />
-    </list>
+    <list default="true" id="2e9acc2b-be97-4854-a25f-135b69b367a1" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +35,7 @@
         <entry file="file://$PROJECT_DIR$/Cadastro/templates/home.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="147">
-              <caret line="7" column="49" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
+              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="61" />
             </state>
           </provider>
         </entry>
@@ -206,7 +204,7 @@
     <entry file="file://$PROJECT_DIR$/Cadastro/templates/home.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
-          <caret line="7" column="49" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="61" />
         </state>
       </provider>
     </entry>
