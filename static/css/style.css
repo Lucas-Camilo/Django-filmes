@@ -1,0 +1,23 @@
+/* Put your css in here */
+#centro
+{
+    width: 95%;
+    height: 25px;
+    line-height: 25px;
+    text-align:center;
+    Font-size: 17px;
+    /* pura mágica */
+    position: absolute;
+    top: 30%; /* posiciona na metade da tela */
+}
+.todasDiv
+{
+    transition: all linear 0.5s;
+    background-color: lightblue;
+    width:40%;
+    margin:auto;
+}
+#atencao
+{
+color:red;
+}
