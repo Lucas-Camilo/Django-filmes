@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Seja Bem Vindo</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/estilo.css' %}"/>
+    <script type="text/javascript" src="{% static 'js/script.js' %}"></script>
+</head>
+<body>
+    <!-- Button to open the modal login form -->
+    <button onclick="document.getElementById('id01').style.display='block'">Cadastrar</button><br>
+    <button onclick="document.getElementById('id02').style.display='block'">Editar</button><br>
+    <button onclick="document.getElementById('id03').style.display='block'">Excluir</button><br>
+    <button onclick="document.getElementById('id04').style.display='block'">Vizualizar</button><br>
+    <!-- The Modal -->
+    <div id="id01" class="modal"> <!-- Cadastro de Filme -->
+        <span onclick="document.getElementById('id01').style.display='none'"
+        class="close" title="Close Modal">&times;</span>
+            <!-- Modal Content -->
+      <form class="modal-content animate" action="#">
+        <div class="imgcontainer">
+            <img src="../../static/img/cadastrar.png" alt="Avatar" class="avatar">
+        </div>
+
+        <div class="container">
+          <label><b>Nome</b></label>
+          <input type="text" placeholder="Entre com o nome do filme" name="fname" required>
+
+          <label><b>Descrição</b></label>
+          <input type="text" placeholder="Escreva a descrição do filme" name="desc" required>
+
+          <label><b>Url</b></label>
+          <input type="text" placeholder="Insira a Url da capa do filme" name="url" required>
+
+          <button type="submit">Cadastrar</button>
+        </div>
+
+        <div class="container" style="background-color:#f1f1f1">
+          <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+        </div>
+      </form>
+    </div> <!-- Fecha Cadastro de Filme -->
+
+    <div id="id02" class="modal"> <!-- Editar de Filme -->
+        <span onclick="document.getElementById('id02').style.display='none'"
+        class="close" title="Close Modal">&times;</span>
+            <!-- Modal Content -->
+      <form class="modal-content animate" action="#">
+        <div class="imgcontainer">
+            <img src="../../static/img/atualizar.png" alt="Avatar" class="avatar">
+        </div>
+
+        <div class="container">
+          <label><b>Nome</b></label>
+          <input type="text" placeholder="Entre com o nome do filme" name="fname" required>
+
+          <label><b>Descrição</b></label>
+          <input type="text" placeholder="Escreva a descrição do filme" name="desc" required>
+
+          <label><b>ATENÇÃO!!! Você so poderar editar a descrição do filme</b></label><br>
+
+
+          <button type="submit">Editar</button>
+        </div>
+
+        <div class="container" style="background-color:#f1f1f1">
+          <button type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn">Cancel</button>
+        </div>
+      </form>
+    </div> <!-- Fecha Editar de Filme -->
+
+    <div id="id03" class="modal"> <!-- Excluir Filme -->
+        <span onclick="document.getElementById('id03').style.display='none'"
+        class="close" title="Close Modal">&times;</span>
+            <!-- Modal Content -->
+      <form class="modal-content animate" action="#">
+        <div class="imgcontainer">
+          <img src="../../static/img/excluir.png" alt="Avatar" class="avatar">
+        </div>
+
+        <div class="container">
+          <label><b>Nome</b></label>
+          <input type="text" placeholder="Nome do Filme que deseja excluir" name="fname" required>
+
+          <button type="submit">Excluir</button>
+        </div>
+
+        <div class="container" style="background-color:#f1f1f1">
+          <button type="button" onclick="document.getElementById('id03').style.display='none'" class="cancelbtn">Cancel</button>
+        </div>
+      </form>
+    </div> <!-- Fecha Exclusão Filme -->
+
+    <div id="id04" class="modal"> <!-- Vizualizar de Filme -->
+        <span onclick="document.getElementById('id04').style.display='none'"
+        class="close" title="Close Modal">&times;</span>
+            <!-- Modal Content -->
+      <form class="modal-content animate" action="/action_page.php">
+        <div class="imgcontainer">
+          <img src="" alt="Avatar" class="avatar">
+        </div>
+
+        <div class="container">
+          <label><b>Username</b></label>
+          <input type="text" placeholder="Enter Username" name="uname" required>
+
+          <label><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" required>
+
+          <button type="submit">Login</button>
+          <input type="checkbox" checked="checked"> Remember me
+        </div>
+
+        <div class="container" style="background-color:#f1f1f1">
+          <button type="button" onclick="document.getElementById('id04').style.display='none'" class="cancelbtn">Cancel</button>
+          <span class="psw">Forgot <a href="#">password?</a></span>
+        </div>
+      </form>
+    </div> <!-- Fecha Vizuyalizar Filme -->
+</body>
+</html>
