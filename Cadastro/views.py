@@ -1,5 +1,11 @@
 from django.shortcuts import render, HttpResponse
-
+from random import randint
+import os
 # Create your views here.
 def home(request):
-    return render(request, "funcionalidades.html")
+    pasta_fundo = "imagens/"
+    fundos = []
+    for file in os.listdir(pasta_fundo):
+        fundos.append(file)
+    fundos = fundos[randint(0, 1)]
+    return render(request, "funcionalidades.html", {"fundo": fundos})

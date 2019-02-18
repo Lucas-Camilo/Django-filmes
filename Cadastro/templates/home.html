@@ -5,40 +5,8 @@
     <meta charset="UTF-8">
     <title>Home</title>
     <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}"/>
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.28/angular.min.js"></script>
-	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.28/angular-cookies.min.js"></script>
-    <script src="{% static 'js/app.js' %}"></script>
 </head>
-<body ng-controller="Ctrl" class="fundo">
-    <p><h1>Ola seja bem vindo ao cadastro de filmes</h1></p>
-    <form name="myForm" id="centro">
-            <input type="radio" ng-model="func" value="cadastro"> Cadastrar Filmes<br/>
-                <div class="todasDiv" ng-show="isShown('cadastro')">
-                    <p><h4>Preencha os campos abaixo para inserção do filme:</h4></p>
-                    <p>Nome do Filme: <input type="text" id="nome"></p>
-                    <p>Link da url da Capa: <input type="text" id="link"></p>
-                    <p>Descrição:  <textarea name="comentarios" id="comentarios"></textarea></p>
-                    <p><button id="cadastro">Cadastrar</button></p>
-                </div>
-            <input type="radio" ng-model="func" value="editar"> Editar Filmes<br/>
-                <div ng-show="isShown('editar')" class="todasDiv">
-                    <p ><h2 id="atencao">Você so poderá editar a descrição do filme</h2></p>
-                    <p>Insira o nome do Filme <input type="text" id="nome"> </p>
-                        <p>Descrição: <textarea name="comentario"></textarea></p>
-                        <p><button id="editar">Editar</button></p>
-                </div>
-            <input type="radio" ng-model="func" value="excluir"> Excluir<br/>
-                <div ng-show="isShown('excluir')" class="todasDiv">
-                    <p><h3>preencha os campos abaixo para exclusão de filmes</h3></p>
-                    <p>Nome do Filme: <input type="text" id="nome"></p>
-                    <p><button id="excluir">Excluir</button></p>
-                </div>
-            <input type="radio" ng-model="func" value="viel"> Vizualizar cadastrados<br/>
-                <div ng-show="isShown('viel')" class="todasDiv">
-                    <p><h3>Escolha o filme para vizualizar</h3></p>
-                    <p>Nome do Filme: <input type="text" id="nome"></p>
-                    <p><button id="ver">Vizualizar</button></p>
-                </div>
-    </form>
+<body>
+
 </body>
 </html>
