@@ -3,7 +3,7 @@ from random import randint
 import os
 # Create your views here.
 def home(request):
-    pasta_fundo = "imagens/"
+    pasta_fundo = "../../static/img/fundo/"
     fundos = []
     for file in os.listdir(pasta_fundo):
         fundos.append(file)
