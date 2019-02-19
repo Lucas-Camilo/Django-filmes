@@ -10,18 +10,11 @@
     position: absolute;
     top: 30%; /* posiciona na metade da tela */
 }
-.todasDiv
-{
-    transition: all linear 0.5s;
-    background-color: lightblue;
-    width:40%;
-    margin:auto;
-}
 #atencao
 {
 color:red;
 }
 .fundo
 {
-backgroud-color: #43A2FF;
+background-size: cover;
 }
