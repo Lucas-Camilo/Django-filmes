@@ -11,3 +11,5 @@ def home(request):
     fundos = fundos[randint(0, 1)]
     """
     return render(request, "funcionalidades.html")
+def visualizar(request):
+    return render(request, "vizualizar.html")
