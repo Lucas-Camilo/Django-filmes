@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2e9acc2b-be97-4854-a25f-135b69b367a1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cadastro/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/Cadastro/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cadastro/templates/vizualizar.html" beforeDir="false" afterPath="$PROJECT_DIR$/Cadastro/templates/vizualizar.html" afterDir="false" />
-    </list>
+    <list default="true" id="2e9acc2b-be97-4854-a25f-135b69b367a1" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,10 +158,10 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\Desktop\vaga de Emprego\Django-filmes\static\css" />
       <recent name="C:\Users\User\Desktop\vaga de Emprego\Django-filmes\static\img" />
       <recent name="C:\Users\User\Desktop\vaga de Emprego\Django-filmes\static\img\fundo" />
       <recent name="C:\Users\User\Desktop\vaga de Emprego\Django-filmes\static\js" />
-      <recent name="C:\Users\User\Desktop\vaga de Emprego\Django-filmes\static\css" />
     </key>
   </component>
   <component name="RunDashboard">
