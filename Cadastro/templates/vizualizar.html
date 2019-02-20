@@ -3,8 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <title>Lista de Filmes</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/vizual.css' %}"/>
 </head>
 <body>
-    <p>Seja bem vindo(a) a lista de filmes</p>
+    <div class="fundo" id="imagem"> <!--Div do Filme-->
+		<div class="lado"> <!--imagem da capa-->
+			<img src="{{url}}" alt="Capa do Filme" onerror="this.src='http://ranchoberti.com.br/vendas/SemImagem02.jpg';" >
+		</div> <!-- fecha imagem da capa-->
+
+		<div class="lado">
+			<p>Nome: {{nome}}</p>
+			<p>Descrição: {{descricao}}</p>
+		</div>
+	</div>
 </body>
 </html>
