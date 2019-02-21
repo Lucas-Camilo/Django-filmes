@@ -21,5 +21,5 @@ def excluir(request):
 def atualizar(request):
     nome = request.GET.get("fname")
     desc = request.GET.get("desc")
-    Filme.object.filter(Nome=nome).upadte(Descricao=desc)
+    Filme.objects.filter(Nome=nome).upadte(Descricao=desc)
     return render(request, "home.html", {"status": "Atualizado com sucesso"})
