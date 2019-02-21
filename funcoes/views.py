@@ -10,8 +10,8 @@ def vizualizar(request):
     return render(request, "vizualizar.html", {"filme": filme})
 def cadastro(request):
     nome = request.GET.get("fname")
-    descrica = request.GET.get("desc")
+    desc = request.GET.get("desc")
     url = request.GET.get("url")
-    """if request.method == 'Post':
-            Filme.objects.create(Nome="", Descricao="", Url="")"""
-    return render(request, "home.html", {"nome": nome, "url": url, "desc": descrica})
+
+    Filme.objects.create(Nome=nome, Descricao=desc, Url=url)
+    return render(request, "home.html",)
