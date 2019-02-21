@@ -10,11 +10,11 @@
 {% for filme in filme %}
 		<div class="fundo" id="imagem"> <!--Div do Filme-->
 			<div class="lado"> <!--imagem da capa-->
-				<img src="{{filme.url}}" alt="Capa do Filme" onerror="this.src='http://ranchoberti.com.br/vendas/SemImagem02.jpg';" >
+				<img src="{{filme.Url}}" alt="Capa do Filme" onerror="this.src='http://ranchoberti.com.br/vendas/SemImagem02.jpg';" >
 			</div> <!-- fecha imagem da capa-->
 			<div class="lado">
-				<p>Nome: {{filme.nome}}</p>
-				<p>Descrição: {{filme.descricao|linebreaks}}</p>
+				<p>Nome: {{filme.Nome}}</p>
+				<p>Descrição: {{filme.Descricao|linebreaks}}</p>
 			</div>
 		</div>
 {% endfor %}
