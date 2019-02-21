@@ -31,6 +31,7 @@ ALLOWED_HOSTS = [u'cadastrofilme.pythonanywhere.com']
 # Application definition
 
 INSTALLED_APPS = [
+    'Cadastro'
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
