@@ -5,4 +5,5 @@ from .models import Filme
 def home(request):
     return render(request, "funcionalidades.html")
 def vizualizar(request):
-    return render(request, "vizualizar.html")
+    filme = Filme.objects.all()
+    return render(request, "vizualizar.html", {"filme": filme})
