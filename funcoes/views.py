@@ -12,6 +12,9 @@ def cadastro(request):
     nome = request.GET.get("fname")
     desc = request.GET.get("desc")
     url = request.GET.get("url")
-
     Filme.objects.create(Nome=nome, Descricao=desc, Url=url)
-    return render(request, "home.html",)
+    return render(request, "home.html", {"status": "Adcionado com sucesso"})
+def excluir(request):
+    nome = request.GET.get("fname")
+    Filme.objects.filter(Nome=nome).delete()
+    return render(request, "home.html", {"status": "Excluido"})
