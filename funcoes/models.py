@@ -5,3 +5,6 @@ class Filme(models.Model):
     Nome = models.CharField(max_length=30)
     Descricao = models.TextField()
     Url = models.TextField()
+
+    def __str__(self):
+        return self.Nome
