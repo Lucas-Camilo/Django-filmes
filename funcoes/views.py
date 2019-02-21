@@ -14,4 +14,4 @@ def cadastro(request):
     descrica = request.get("desc")
     url = request.get("url")
     return render(request, "home.html",
-                  {"form":form,"nome": nome, "url": url, "desc": descrica})
+                  {"form": form, "nome": nome, "url": url, "desc": descrica})
