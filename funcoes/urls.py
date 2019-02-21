@@ -6,4 +6,5 @@ urlpatterns = [
     path('visualizar/', views.visualizar),
     path('cadastro/', views.cadastro),
     path('excluir', views.excluir),
+    path('atualizar', views.atualizar)
 ]
