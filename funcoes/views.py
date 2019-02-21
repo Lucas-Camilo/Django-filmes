@@ -9,9 +9,9 @@ def vizualizar(request):
     filme = Filme.objects.all()
     return render(request, "vizualizar.html", {"filme": filme})
 def cadastro(request):
-    form = Cadastro(request.Get)
-    nome = request.get("fname")
-    descrica = request.get("desc")
-    url = request.get("url")
-    return render(request, "home.html",
-                  {"form": form, "nome": nome, "url": url, "desc": descrica})
+    nome = request.GET.get("fname")
+    descrica = request.GET.get("desc")
+    url = request.GET.get("url")
+    """if request.method == 'Post':
+            Filme.objects.create(Nome="", Descricao="", Url="")"""
+    return render(request, "home.html", {"nome": nome, "url": url, "desc": descrica})
