@@ -5,7 +5,7 @@ from .forms import Cadastro
 # Create your views here.
 def home(request):
     return render(request, "funcionalidades.html")
-def vizualizar(request):
+def visualizar(request):
     filme = Filme.objects.all()
     return render(request, "vizualizar.html", {"filme": filme})
 def cadastro(request):
@@ -18,3 +18,8 @@ def excluir(request):
     nome = request.GET.get("fname")
     Filme.objects.filter(Nome=nome).delete()
     return render(request, "home.html", {"status": "Excluido"})
+def atualizar(request):
+    nome = request.GET.get("fname")
+    desc = request.GET.get("desc")
+    Filme.object.filter(Nome=nome).upadte(Descricao=desc)
+    return render(request, "home.html", {"status": "Atualizado com sucesso"})
